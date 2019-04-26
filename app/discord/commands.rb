@@ -5,8 +5,8 @@ module Discord
     @admin_roles = []
 
     desc = "pong!"
-    command :ping, description: desc do |event|
-      "pong! (#{Time.now - event.timestamp}s)"
+    command :valid, description: desc do |event|
+      "Server has valid License"
     end
 
     desc  = "Deletes X amount of messages from the channel"
