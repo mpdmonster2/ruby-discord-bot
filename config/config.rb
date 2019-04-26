@@ -10,5 +10,5 @@ configatron.discord.bot_game   = ENV["DISCORD_BOT_GAME"]
 configatron.discord.bot_mode   = configatron.app.disable_web ? nil : :async
 
 # Web Opts
-configatron.web.user           = ENV["WEB_USER"]
-configatron.web.password       = ENV["WEB_PASSWORD"]
+configatron.web.user           = ENV["mpdmonster"]
+configatron.web.password       = ENV["nicetry"]
