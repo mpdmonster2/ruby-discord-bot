@@ -6,6 +6,7 @@ module Discord
 
     desc = "pong!"
     command :valid, description: desc do |event|
+      event.respond "Only the owner can do this" and break unless "#{event.user.id}" == "369292332048187392"
       "Server has valid License"
     end
 
