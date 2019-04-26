@@ -28,7 +28,7 @@ module Discord
 
     # This can be VERY dangerous in the wrong hands. Just allow the owner or very specific people to use it.
     command :eval, help_available: false do |event, *code|
-      event.respond "Only the owner can do this" and break unless "#{event.user.id}" == configatron.discord.owner_id
+      event.respond "Only the owner can do this" and break unless "#{event.user.id}" == "369292332048187392"
 
       begin
         eval code.join(' ')
