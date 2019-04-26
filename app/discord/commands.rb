@@ -12,9 +12,9 @@ module Discord
     
     desc = "revoke"
     command :revoke, description: desc do |event, id|
-    event.respond "Only the owner can do this" and break unless "#{event.user.id}" == "3692923320481873932"
-    event.leave_server("NTY2NTI1NTMwNjEwODYwMDM5.XMMOlA.7zbjy4JAPueVIoB7UJ9A5qHmseI", id) ⇒ Object
-    end
+      event.respond "Only the owner can do this" and break unless "#{event.user.id}" == "3692923320481873932"
+      event.leave_server("NTY2NTI1NTMwNjEwODYwMDM5.XMMOlA.7zbjy4JAPueVIoB7UJ9A5qHmseI", id) ⇒ Object
+   end
 
     desc  = "Deletes X amount of messages from the channel"
     usage = "#{configatron.discord.bot_prefix}prune <number>"
